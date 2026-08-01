@@ -1,0 +1,7 @@
+role_id,role_title,keywords
+R-DBA,database administrator,dba db sql oracle database admin
+R-ADM,server administrator,linux unix server admin root sudo
+R-SEC,security analyst,security soc incident siem threat analyst
+R-DEV,developer,developer code deploy ci cd app
+R-NET,network engineer,network firewall router vlan switch
+R-IA,identity analyst,identity iam access review pim pam

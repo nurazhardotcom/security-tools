@@ -1,0 +1,9 @@
+finding_id,title,severity,cvss,asset_criticality,status,age_days
+F-1001,Exposed debug endpoint,critical,9.1,critical,open,5
+F-1002,Weak TLS config,high,7.0,high,open,20
+F-1003,Stale software versions,medium,5.5,medium,open,75
+F-1004,Verbose error messages,low,2.5,low,open,10
+F-1005,SQL injection,high,8.2,critical,open,2
+F-1006,Deprecated cipher suites,medium,4.3,medium,resolved,30
+F-1007,Info leak,medium,5.0,medium,open,61
+F-1008,Missing MFA,medium,6.0,low,open,15

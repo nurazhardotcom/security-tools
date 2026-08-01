@@ -1,0 +1,10 @@
+user,system,permission,owner,last_used_days,status
+alice,ERP,finance_full,finance-ops,12,active
+alice,ERP,finance_full,finance-ops,12,active
+bob,VPN,admin_vpn,,5,active
+carol,CRM,read_only,sales,140,active
+dave,CRM,read_only,,95,active
+eve,CI,deploy_prod,platform,3,active
+frank,CI,deploy_prod,platform,3,active
+grace,HR,hr_full,hr-team,60,active
+heidi,ERP,finance_read,finance-ops,180,active

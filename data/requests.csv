@@ -1,0 +1,8 @@
+request_id,requester,role,privilege,justification,duration_days,emergency,approver
+R-2001,alice,DB Operator,SELECT read-only,Quarterly report generation,30,no,j.manager
+R-2002,bob,Server Admin,root access,Need for incident I-4410 response,2,yes,s.lead
+R-2003,carol,Dev,all access on prod,Weekend deployment automation,1,no,s.lead
+R-2004,dave,SysAdmin,domain admin,Quarterly password rotation,95,yes,j.manager
+R-2005,eve,QA,READ on staging,Test data validation,15,no,t.owner
+R-2006,frank,Ops,admin on all servers,,30,no,s.lead
+R-2007,grace,Engineer,view logs,Debugging latency issue,1,no,t.owner

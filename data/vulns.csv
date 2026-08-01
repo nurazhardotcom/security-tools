@@ -1,0 +1,7 @@
+cve,cvss,severity,exploit_poc,asset_criticality,exposure,title
+CVE-2026-0001,9.8,critical,yes,critical,internet,Unauthenticated RCE in edge gateway
+CVE-2026-0002,7.5,high,no,high,internal,SQL injection in reporting portal
+CVE-2026-0003,6.1,medium,unknown,medium,internal,XSS in admin console
+CVE-2026-0004,4.3,low,no,low,limited,Info disclosure in error pages
+CVE-2026-0005,8.1,high,yes,high,internet,Privilege escalation in web server
+CVE-2026-0006,9.3,critical,no,critical,internal,RCE via deserialization

@@ -1,0 +1,16 @@
+{:paths ["src" "test"]
+ :tasks
+ {test       {:doc "Run the full test suite (bb run test)"
+              :task (shell "bb -m security.test-runner")}
+  prioritize {:doc "bb prioritize <in.csv> [out.csv] - vulnerability remediation prioritizer"
+              :task (apply shell "bb -m security.prioritizer" *command-line-args*)}
+  summarize  {:doc "bb summarize <in.csv> [flags.csv] - access review summarizer"
+              :task (apply shell "bb -m security.summarizer" *command-line-args*)}
+  triage     {:doc "bb triage <in.csv> [out.csv] - security findings triage"
+              :task (apply shell "bb -m security.triage" *command-line-args*)}
+  classify   {:doc "bb classify <in.csv> [out.csv] - privileged-access request classifier"
+              :task (apply shell "bb -m security.classifier" *command-line-args*)}
+  tickets    {:doc "bb tickets <in.csv> [out.csv] - policy-to-ticket generator"
+              :task (apply shell "bb -m security.tickets" *command-line-args*)}
+  match      {:doc "bb match <roles.csv> <jobs.csv> [out.csv] - IAM/PAM job matcher"
+              :task (apply shell "bb -m security.matcher" *command-line-args*)}}}

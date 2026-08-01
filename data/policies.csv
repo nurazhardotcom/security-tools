@@ -1,0 +1,6 @@
+policy_id,title,control,description,owner,risk_level,source
+P-1,User access reviews,AC-1,"Quarterly review of user access, including contractors",iam-team,high,NIST 800-53
+P-2,Privileged access management,PAM-2,"Standing privileges on production systems, limited and approved",secops,high,ISO 27001
+P-3,Vulnerability management,RA-5,Weekly scans and 30-day remediation SLA,secops,medium,NIST 800-53
+P-4,Log retention,AU-11,Retain audit logs 365 days,it-ops,low,PCI DSS
+P-5,Incident response,IR-1,Test IR playbook annually,secops,critical,ISO 27001
