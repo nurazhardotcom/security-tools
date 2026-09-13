@@ -1,5 +1,7 @@
 # security-tools
 
+> **Status:** Active — maintained toolkit. See [AI_DISCLOSURE.md](AI_DISCLOSURE.md).
+
 Six security automation assistants in Clojure/babashka. Zero external
 dependencies, pure functions, deterministic output, fully tested.
 
